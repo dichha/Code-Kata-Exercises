@@ -6,8 +6,6 @@ last = len(content)
 #print(content[last-2])
 date = -1
 smallest = 999
-progress1 = True
-progress2 = True
 count = 0
 
 for i in range(2,last-1):
@@ -28,7 +26,8 @@ for i in range(2,last-1):
             smallest = diff
            
 print("The day with smallest range of temperature difference is " + str(date)+"th day of the given month." ) 
-print(count)
+#print(count)
+f.close()
     
     
     
